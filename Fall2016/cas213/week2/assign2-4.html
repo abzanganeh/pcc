@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!--File Name: assign2-4.html --> 
+<!--Date: 10/09/16 --> 
+<!--Programmer: Alireza Barzin Zanganeh -->
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>File 4: Adding text to a document</title>
+
+<link rel="stylesheet" href="styles/assign2.css">
+
+</head>
+
+<body>
+
+<h1 id="file4Heading">File 4: Adding text to a document</h1>
+
+<script> 
+
+var attentionParagraph = document.createElement("p");
+var stillInJsH2= document.createElement("h2");
+var attentionText = document.createTextNode("Attention, a message recieved from Captain that we don't reach jQuery boarder yet.");
+var stillInJsText = document.createTextNode("We are still flying in JS sky. ");
+attentionParagraph.appendChild(attentionText);
+stillInJsH2.appendChild(stillInJsText);
+document.body.appendChild(attentionParagraph);
+document.body.appendChild(stillInJsH2);
+
+</script> 
+
+</body>
+
+</html>

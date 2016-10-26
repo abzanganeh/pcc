@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Chapter 2: jQuery for Designers</title>
+  
+  <link rel="stylesheet" href="styles/styles-done.css">
+  <link rel="stylesheet" href="styles/jquery.powertip.css">
+  
+</head>
+
+<body class="jsOff">
+
+<header class="content">
+  <h1>Pittsburgh, Pennsylvania</h1>
+  <p>City of Bridges, Steel City, City of Champions, The 'Burgh</p>
+</header>  
+
+  <nav>
+    <ul>
+      <li><a href="#pb-gallery" title="View photos of Pittsburgh">Photo Gallery</a></li>
+      <li><a href="#pb-about" title="Read about Pittsburgh">About</a></li>
+      <li><a href="#pb-geography" title="Learn about Pittsburg's geography">Geography</a></li>
+      <li><a href="#pb-moreinfo" title="Get more info about Pittsburgh">More Information</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+
+    <h2 id="pb-gallery">Photo Gallery</h2>
+    <ul class="gallery">
+      <li><img src="images/bridge.jpg" title="One of many bridges in Pittsburgh"/></li>
+      <li><img src="images/downtown.jpg" title="Downtown Pittsburgh with bridges"/></li>
+      <li><img src="images/icecream.jpg" title="A great way to beat the summer heat"/></li>
+    </ul>
+
+<h2 id="pb-about">About Pittsburgh</h2>
+<p>Pittsburgh is the second-largest city in the US Commonwealth of Pennsylvania and the county seat of Allegheny County. Regionally, it anchors the largest urban area of Appalachia and the Ohio River Valley, and nationally, it is the 22nd-largest urban area in the United States. The population of the city in 2010 was 305,704 while that of the seven-county metropolitan area stood at 2,356,285. <a href="#info-box-downtown" class="info-box" data-powertiptarget="info-box-downtown">Downtown Pittsburgh</a> retains substantial economic influence, ranking at 25th in the nation for jobs within the urban core and 6th in job density.</p>
+
+<h2 id="pb-geography">Geography</h2>
+<p>The characteristic shape of Pittsburgh's central business district is a triangular tract carved by the confluence of the Allegheny and Monongahela rivers, which form the Ohio River. The city features 151 high-rise buildings, 446 bridges, two inclined railways, and a pre-revolutionary fortification. Pittsburgh is known colloquially as "The City of Bridges" and "The Steel City" for its <a href="#info-box-bridge" class="info-box" data-powertiptarget="info-box-bridge">many bridges</a> and former steel manufacturing base.</p>
+<p>The warmest month of the year in Pittsburgh is July, with a 24-hour average of 72.6&deg;F. Conditions are often humid, and combined with the 90&deg;F (occurring on an average of 8.4 days per annum), a considerable <a href="#info-box-icecream" class="info-box" data-powertiptarget="info-box-icecream">heat index</a> arises.</p>
+
+    <h2 id="pb-moreinfo">More Information</h2>
+    <ul class="info-boxes">
+      <li id="info-box-bridge">
+        <div class="info-box-container">
+          <img src="images/bridge.jpg"/>
+          <div class="info-box-content">
+            <p>One of many bridges in Pittsburgh</p>
+          </div>
+        </div>
+      </li>
+      <li id="info-box-downtown">
+        <div class="info-box-container">
+          <img src="images/downtown.jpg"/>
+          <div class="info-box-content">
+            <p>Downtown<br/>Pittsburgh</p>
+          </div>
+        </div>
+      </li>
+      <li id="info-box-icecream">
+        <div class="info-box-container">
+          <img src="images/icecream.jpg"/>
+          <div class="info-box-content">
+            <p>Ice cream beats the summer heat</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="sources">
+    <h3>Sources:</h3>
+    <ul class="source-list">
+      <li><a href="http://en.wikipedia.org/wiki/Pittsburgh">Wikipedia: Pittsburgh</a></li>
+      <li><a href="http://nataliemac.com">Photos by Natalie MacLees</a></li>
+    </ul>
+  </div>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/jquery.powertip.min.js"></script>
+<script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>

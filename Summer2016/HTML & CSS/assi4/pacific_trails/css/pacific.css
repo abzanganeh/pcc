@@ -1,0 +1,102 @@
+/* 
+Assignment Name: Apply CSS to Pacific Ttails Resort Web pages
+File Name: pacific.css
+Date: 07/17/16 
+Programmer: Alireza Barzin Zanganeh
+*/
+body    {
+        background-image: url(../images/background.jpg);
+        background-color: #FFFFFF;
+        color: #666666;
+        font-family: Verdana, Arial, sans-serif;
+        }
+     
+header  {
+        background-color: #000033;
+        color: #FFFFFF;
+        font-family: Georgia, serif;
+        }
+        
+h1      {
+		background-image: url(../images/sunset.jpg);
+		background-clip: padding-box;
+		background-repeat: no-repeat;
+		background-position: right;
+		padding-left: 20px;
+		height: 72px;
+        line-height: 200%;
+        margin-bottom: 0;
+        }
+        
+nav     {
+        background-color: #87CEEB;
+        padding: 5px;
+        font-weight: bold;
+        }
+        
+h2      {
+        color: #3399CC;
+        font-family: Georgia, serif;
+        }
+       
+h3		{
+		color: #000033;
+		}
+		
+main	{
+		padding-right: 20px;
+		padding-left: 20px;
+		display: block;
+		}		
+		       
+dt      {
+        color: #000033;
+        font-weight: bold;
+        }
+        
+.resort {
+        color: #000033;
+        font-size: 1.2em;       
+        }
+        
+footer  {
+        font-size: 0.70em;
+        font-style: italic;
+        text-align: center; 
+        padding: 10px     
+        }
+        
+#wrapper{
+		background-color: #ffffff;
+		min-width:700px;
+		max-width:1024px;
+		box-shadow: 5px 5px 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+		}
+		
+#homehero{
+		background-image: url(../images/coast.jpg);
+		height: 300px;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		}
+		
+#yurthero{
+		background-image: url(../images/yurt.jpg);
+		height: 300px;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		}
+
+#trailhero{
+		background-image: url(../images/trail.jpg);
+		height: 300px;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		}
+		
+nav a	{
+		text-decoration: none;
+		}

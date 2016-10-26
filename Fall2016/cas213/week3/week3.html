@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    
+<!--File Name: week3.html --> 
+<!--Date: 10/16/16 --> 
+<!--Programmer: Alireza Barzin Zanganeh -->
+
+<html>
+
+<head>
+
+<title>Week 3 Assignment: Some jQuery Methods</title>
+  
+<link rel="stylesheet" href="styles/week3.css">
+  
+</head>
+
+<body class="jsOff">
+
+<header class="content">
+
+<h1>Some Useful jQuery Methods</h1>
+
+<p>Methods are built-in functions which we can use in jQuery</p>
+
+</header>
+
+<ul id="methods">
+    <li><a href="#remclass">Remove Class</a></li>
+    <li><a href="#addclass">Add Class</a></li>
+    <li><a href="#on">On</a></li>
+    <li><a href="#click">Click</a></li>
+    <li><a href="#prevdft">Prevent</a></li>
+    <li><a href="#hideshow">Hide</a></li>
+    <li><a href="#filter">Filter</a></li>
+</ul>
+
+<div id="remclass" class="content tab-section">
+
+<h2>Remove Class</h2>
+
+<p> The removeClass() method removes one or more class names from the selected elements.<br>
+Note:<br> If no parameter is specified, this method will remove ALL class names from the selected elements.
+</p>
+
+</div>
+
+<div id="addclass" class="content tab-section">
+
+<h2>Add Class</h2>
+
+<p>The addClass() method adds one or more class names to the selected elements.<br>This method does not remove existing class attributes, it only adds one or more class names to the class attribute.<br>Tip:<br> To add more than one class, separate the class names with spaces.</p>
+
+</div>
+
+<div id="on" class="content tab-section">
+
+<h2>On</h2>
+
+<p>The on() method attaches one or more event handlers for the selected elements and child elements. As of jQuery version 1.7, the on() method is the new replacement for the bind(), live() and delegate() methods. This method brings a lot of consistency to the API, and we recommend that you use this method, as it simplifies the jQuery code base.<br>Note: <br>Event handlers attached using the on() method will work for both current and FUTURE elements (like a new element created by a script).<br>Tip:<br> To remove event handlers, use the off() method.<br>Tip:<br> To attach an event that only runs once and then removes itself, use the one() method.</p>
+
+</div>
+
+<div id="click" class="content tab-section">
+
+<h2>Click</h2>
+
+<p>The click event occurs when an element is clicked. The click() method triggers the click event, or attaches a function to run when a click event occurs.</p>
+
+</div>
+
+<div id="prevdft" class="content tab-section">
+
+<h2>Prevent Default</h2>
+
+<p>The event.preventDefault() method stops the default action of an element from happening.For example:<br>Prevent a submit button from submitting a form<br>Prevent a link from following the URL<br>Tip:<br>Use the event.isDefaultPrevented() method to check whether the preventDefault() method was called for the event.</p>
+
+</div>
+
+<div id="hideshow" class="content tab-section">
+
+<h2>Hide and Show</h2>
+
+<p>With jQuery, you can hide and show HTML elements with the hide() and show() methods.</p>
+
+</div>
+
+<div id="filter" class="content tab-section">
+
+<h2>Filter</h2>
+                                                                                                        
+<p>The filter() method returns elements that match a certain criteria. This method lets you specify a criteria. Elements that do not match the criteria are removed from the selection, and those that match will be returned. This method is often used to narrow down the search for an element in a group of selected elements.<br>Tip:<br> The filter() method is the opposite of the not() method.</p>
+
+</div>
+<div class="sources">
+
+<h3>Sources:</h3>
+
+<ul class="source-list">
+    <li><a href="http://www.w3schools.com/jquery/html_removeclass.asp">W3School: removeClass()</a></li>
+    <li><a href="http://www.w3schools.com/jquery/html_addclass.asp">W3School: addClass</a></li>
+    <li><a href="http://www.w3schools.com/jquery/event_on.asp">W3School: on()</a></li>
+    <li><a href="http://www.w3schools.com/jquery/event_click.asp">W3School: click()</a></li>
+    <li><a href="http://www.w3schools.com/jquery/event_preventdefault.asp">W3School: preventDefault()</a></li>
+    <li><a href="http://www.w3schools.com/jquery/jquery_hide_show.asp">W3School: hide() and Show()</a></li>
+    <li><a href="http://www.w3schools.com/jquery/traversing_filter.asp">W3School: filter()</a></li>
+</ul>
+  
+</div>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/week3.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+/* 
+Assignment Name: Apply CSS to Pacific Ttails Resort Web pages
+File Name: pacific.css
+Date: 07/09/16 
+Programmer: Alireza Barzin Zanganeh
+*/
+body    {
+        background-color: #FFFFFF;
+        color: #666666;
+        font-family: Verdana, Arial, sans-serif;
+        }
+     
+header  {
+        background-color: #000033;
+        color: #FFFFFF;
+        font-family: Georgia, serif;
+        }
+        
+h1      {
+        line-height: 200%;
+        }
+        
+nav     {
+        background-color: #87CEEB;
+        font-weight: bold;
+        }
+        
+h2      {
+        color: #3399CC;
+        font-family: Georgia, serif;
+        }
+       
+dt      {
+        color: #000033;
+        font-weight: bold;
+        }
+        
+.resort {
+        color: #000033;
+        font-size: 1.2em;       
+        }
+        
+footer  {
+        font-size: 0.70em;
+        font-style: italic;
+        text-align: center;      
+        }
+        
+#wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+}
